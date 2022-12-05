@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1670162581 source:c:\users\cedor\onedrive\documents\code blocks\projects\cs145-8l_activity2\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+
