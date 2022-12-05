@@ -271,10 +271,11 @@ vector<pair<string, token_t>> lexer(string inputPath, bool generateFiles = false
 
 
 // PARSER
+/*
 class node {
     private:
         pair<string, token_t> content;
-        node *parent;
+        node parent;
         vector<node> children;
     public:
         node(pair<string, token_t> c) {
@@ -283,13 +284,15 @@ class node {
         }
         pair<string, token_t> getContent() {return content;}
         node *getParent() {return parent;}
-        void setParent(node *p) {parent = p;}
+        void setParent(node p) {parent = &p;}
         vector<node> getChildren() {return children;}
 
-        void addChild(node &n) {
-            n.getChildren().push_back(n);
+        void addChild(node n) {
+            children.push_back(n);
+            n.setParent(this);
         }
 };
+*/
 
 pair<string, token_t> *parser(vector<pair<string, token_t>> tokens) {
     pair<string, token_t> output[tokens.size()];
