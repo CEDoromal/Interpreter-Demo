@@ -1,0 +1,5 @@
+x:int;
+x:=5+9;
+if(x<5)
+	output<<x;
+output<<"hello";

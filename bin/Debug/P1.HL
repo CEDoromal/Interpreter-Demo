@@ -3,4 +3,4 @@ z:double;
 x:=3;
 z:=4+3.75;
 output<<"hello";
-outputsyloo<<2;
+output<<2;

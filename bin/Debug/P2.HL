@@ -1,0 +1,6 @@
+x:int;
+y:int;
+x:=9;
+y:=8-3;
+output<<x;
+output<<y;

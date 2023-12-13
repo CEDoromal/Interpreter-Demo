@@ -1,6 +1,5 @@
-x:int;
-z:double;
-x:=3;
-z:=4+3.75;
-output<<"hello";
-outputsyloo<<2;
+x: double;
+y: double;
+x:= 0.5;
+if(x<1)
+  output<<x;
